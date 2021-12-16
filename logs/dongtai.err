@@ -1,0 +1,14 @@
+2021-09-06 16:09:07.603 [cn.huoxian.dongtai.engine] ERROR report error reason: 
+java.io.IOException: Server returned HTTP response code: 500 for URL: http://192.168.32.131:8000/api/v1/report/upload
+	at sun.net.www.protocol.http.HttpURLConnection.getInputStream0(HttpURLConnection.java:1900)
+	at sun.net.www.protocol.http.HttpURLConnection.getInputStream(HttpURLConnection.java:1498)
+	at com.secnium.iast.core.util.HttpClientUtils.sendRequest(HttpClientUtils.java:101)
+	at com.secnium.iast.core.util.HttpClientUtils.sendPost(HttpClientUtils.java:51)
+	at com.secnium.iast.core.report.HeartBeatSender.run(HeartBeatSender.java:85)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.runAndReset(FutureTask.java:308)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.access$301(ScheduledThreadPoolExecutor.java:180)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:294)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
